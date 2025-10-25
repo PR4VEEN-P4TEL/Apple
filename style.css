@@ -1,0 +1,201 @@
+@font-face {
+    font-family: Main;
+    src: url(./sf-pro-text_regular.woff2);
+}
+
+@font-face {
+    font-family: header;
+    src: url(./sf-pro-display_regular.woff2);
+}
+
+@font-face {
+    font-family: about;
+    src: url(./sf-pro-icons_regular.woff2);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: fixed;
+    font-family: header;
+}
+
+header a {
+    color: rgb(35, 34, 34);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#flyer {
+    color: rgb(255, 255, 255);
+    background-color: #1e1e1e;
+    text-align: center;
+    font-family: Main;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    transition: background-color 0.3s ease;
+}
+
+#flyer .shop {
+    color: #2997ff;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+#flyer .shop:hover {
+    text-decoration: underline;
+}
+
+main {
+    height: 270%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    background-color: rgb(255, 249, 249);
+    padding-top: 30px;
+    text-align: center;
+    font-size: 27px;
+    font-family: Main;
+}
+
+#Mac {
+    background-image: url(https://www.apple.com/v/home/ci/images/heroes/macbook-pro-m5/hero_macbook_pro_m5_announce__i8r7suk8moqe_mediumtall.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    background-color: black;
+}
+
+#iPad {
+    background-image: url(https://www.apple.com/v/home/ci/images/heroes/ipad-pro/hero_ipad_pro_announce__v858qt6nn4im_medium_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    color: white;
+    background-color: rgb(249, 244, 244);
+}
+
+#iPhone {
+    background-image: url(https://www.apple.com/v/home/ci/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_medium_2x.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding: 50px;
+    color: white;
+    background-color: rgb(249, 244, 244);
+}
+
+section {
+    height: 230%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-family: Main;
+    background-color: rgb(255, 255, 255);
+}
+
+#section1 {
+    background-image: url(https://www.apple.com/in/home/promos/diwali-2025/images/diwali25_promo_large.png);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+}
+
+#section2 {
+    background-image: url(https://www.apple.com/v/home/ci/images/promos/iphone-air/promo_iphone_air__gesd0y6oqxym_large.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+}
+
+#section3 {
+    background-image: url(https://www.apple.com/v/home/ci/images/promos/airpods-pro-3/promo_airpodspro_3__f6xmza7bglei_medium_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+}
+
+#section4 {
+    background-image: url(https://www.apple.com/in/home/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_medium_2x.jpg);
+    background-size: cover;
+    background-position: bottom;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+}
+
+#section5 {
+    background-image: url(https://www.apple.com/v/home/ci/images/promos/macbook-air/promo_macbook_air__fqowrtnxewqe_large.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+}
+
+#section6 {
+    background-image: url(https://www.apple.com/v/home/ci/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_large.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+}
+
+button {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: #0077ED;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+#about {
+    color: rgb(255, 255, 255);
+    background-color: #474747;
+    text-align: center;
+    padding: 50px;
+    font-family: about;
+}
+
+footer {
+    height: 80px;
+    width: 100%;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 30px;
+    font-family: about;
+}
